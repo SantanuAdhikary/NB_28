@@ -1,0 +1,84 @@
+
+
+/* !  TagName Selector  */
+
+nav{
+    background-color: antiquewhite;
+}
+
+
+/* h2{
+    color:red;
+} */
+
+
+/* ! 2. ID selector  */
+
+#logo{
+
+    color : red;
+}
+
+
+main{
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+section{
+    height: 350px;
+    background-color: blueviolet;
+}
+
+/* !  3. class selector */
+
+
+.card{
+    background-color: red;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+
+}
+
+
+article{
+    height: 250px;
+    background-color: black;
+}
+
+
+.box{
+    height: 100px;
+    width: 250px;
+    background-color: lightcoral;
+}
+
+
+footer{
+    height: 80px;
+    background-color: brown;
+}
+
+
+/* ! 4. group selector  */
+
+
+.box , footer{
+    text-align: center;
+}
+
+p , h3{
+    color:white;
+}
+
+
+
+/* ! 5. universal selector */
+
+
+*{
+    font-style: italic;
+}
