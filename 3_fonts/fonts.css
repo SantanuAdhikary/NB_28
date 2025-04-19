@@ -1,0 +1,20 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    height: 250px;
+    background-color: antiquewhite;
+}
+
+
+#para1{
+
+    font-size: 20px;
+    font-style: italic;
+}
+
+li{
+    font-weight: bold;
+}
