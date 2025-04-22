@@ -1,0 +1,26 @@
+
+
+.container > h1{
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 0px -3px 2px red;
+}
+
+
+.container > p{
+    text-align: justify;
+    word-spacing: 3px;
+    text-indent: 30px;
+    line-height: 26px;
+}
+
+.container > ol > li:nth-child(2)
+{
+    text-decoration: underline red wavy;
+}
+
+a[href]
+{
+    text-decoration: none;
+}

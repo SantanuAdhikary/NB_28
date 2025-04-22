@@ -1,0 +1,59 @@
+
+/* ! 1. first-letter */
+
+.container > p::first-letter{
+    font-size: 25px;
+}
+
+/* ! 2. first-line */
+
+.container > p::first-line{
+    font-style: italic;
+}
+
+
+/* ! 3. selection */
+
+.container > p::selection{
+    background-color: black;
+    color:white;
+}
+
+
+/* ! 4. before */
+
+.container > h1::before{
+    content : "***";
+    color:red;
+}
+
+
+/* ! 5. after */
+
+.container > h1::after{
+    content:" !!!";
+    color:green;
+}
+
+/* ! 6. marker */
+
+.container > ul > li::marker{
+    color:green;
+}
+
+
+
+.container > ul > li:nth-child(2n)::marker{
+    color:red;
+}
+
+
+
+
+/* !   Attribute selector  */
+
+
+.container2 > form > input[type="text"]
+{
+    background-color: green;
+}

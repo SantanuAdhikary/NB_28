@@ -1,0 +1,60 @@
+
+
+.nav{
+    background-color: antiquewhite;
+}
+
+
+/* !   1. Descendent Selector  */
+
+.nav .logo{
+    color: orangered;
+}
+
+.nav ul li{
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+
+
+/* !  Direct Child Selector  */
+
+.container2 > h2{
+    color:white;
+}
+
+.container2 {
+    background-color: brown;
+}
+
+.container2 > .card > img{
+    height: 100px;
+}
+
+.container2 > .card{
+    background-color: aqua;
+    width: 300px;
+}
+
+
+.container1{
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.container1 > p{
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.footer{
+    height: 80px;
+    background-color: black;
+}
+
+.footer > p{
+    color:white;
+    text-align: center;
+}
