@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+height: 400px;
+    width: 300px;
+    background-color: red;
+}
+
+.container > .box{
+    height: 50%;
+    width: 60%;     
+    
+    background-color: yellow;
+}
+
+.main{
+    height: 100vh;
+    width: 50vw;
+    background-color: black;
+}
+
+.main > .circle{
+    height: 200px;
+    width: 200px;
+    background-color: orangered;
+    border-radius: 50%;
+}
