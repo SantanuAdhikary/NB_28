@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    height: 500px;
+    width: 800px;
+    border: 3px solid black;
+    display: flex;
+
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    /* flex-direction: column-reverse; */
+
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: flex-end; */
+
+    justify-content: center;
+}
+
+.container > .box{
+    height: 80px;
+    width: 80px;
+    border: 3px solid red;
+}
+
+
+/*! main axis , cross axis  */
+
+/*  what will be the flex-direction that is called main axis, and in this direction justify-content will work */
+
+/*  the opposite of flex-direction is called cross-axis in that axis aling-items will work */
