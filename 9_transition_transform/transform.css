@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.outer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.outer > .box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.outer > #box1{
+    background-color: yellow;
+    transition: transform 2s ease-in;
+}
+.outer > #box2{
+    background-color: red;
+    transition: transform 1s linear;
+}
+.outer > #box3{
+    background-color: green;
+    transition: all 1.3s ease-in-out;
+}
+.outer > #box4{
+    background-color: blue;
+    transition: all 1.3s ease-in-out;
+}
+.outer > #box5{
+    background-color: white;
+    transition: all 1.3s ease-in-out;
+}
+
+
+
+.outer > #box1:hover{
+   
+    /* transform: translateX(-100px); */
+    /* transform: translateY(100px); */
+
+    transform: translate(100px,100px);
+}
+
+
+.outer > #box2:hover{
+
+    transform: rotate(360deg);
+}
+
+
+.outer > #box3:hover{
+
+    transform: scale(1.04);
+
+    box-shadow: 3px 4px 4px red;
+}
+.outer > #box4:hover{
+
+    transform: skew(40deg);
+    
+
+ 
+}
+.outer > #box5:hover{
+
+    transform: translate(-100px,-200px) scale(1.5) rotate(360deg);
+    border-radius: 50%;
+    background-color: orange;
+
+
+
+ 
+}
