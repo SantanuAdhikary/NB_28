@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav{
@@ -14,8 +15,15 @@ nav{
 }
 
 .logo{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
+
+.logo > h2{
+    letter-spacing: 1.5px;
+    color: orangered;
+}
+
+
 
 .listItems{
     /* border: 3px solid black; */
@@ -24,11 +32,18 @@ nav{
 
 .listItems > ul{
 
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     display: flex;
     list-style: none;
     justify-content: space-between;
-    gap:10px;
+    gap:20px;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.listItems > ul>li:hover{
+    color:orangered
 }
 
 .main{
@@ -39,4 +54,31 @@ nav{
     align-items: center;
     justify-content: center;
     gap:20px;
+    background-color: black;
+    color:white
+}
+
+.main > h1{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+.main > p{
+    font-size: 19px;
+    font-style: italic;
+}
+
+.main > button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.main > button:hover{
+    background-color: gray;
+    color: white;
 }

@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: solid;
+}
+div:nth-child(1){
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+div:nth-child(2){
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+div:nth-child(3){
+    background-color: green;
+     position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+div:nth-child(4){
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

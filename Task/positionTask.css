@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#outer{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, blue, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    height: 80vh;
+    width: 50vw;
+    background-image: linear-gradient(to right, orange, yellow);
+    border-radius: 25px;
+    position: relative;
+}
+#discount{
+    height: 100px;
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    z-index: 4;
+}
+#coldDrink{
+    height: 400px;
+    position: absolute;
+    bottom: 30px;
+    z-index: 2;
+}
+#burger{
+    height: 300px;
+    position: absolute;
+    top: 43px;
+    left: 30px;
+}
